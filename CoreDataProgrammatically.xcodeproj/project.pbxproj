@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7B1089372926DA1C0091BE3F /* CoreDataProgrammaticallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1089362926DA1C0091BE3F /* CoreDataProgrammaticallyApp.swift */; };
-		7B1089392926DA1C0091BE3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1089382926DA1C0091BE3F /* ContentView.swift */; };
-		7B10893B2926DA1D0091BE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B10893A2926DA1D0091BE3F /* Assets.xcassets */; };
+		7B1089392926DA1C0091BE3F /* ShelvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1089382926DA1C0091BE3F /* ShelvesView.swift */; };
 		7B10893E2926DA1D0091BE3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B10893D2926DA1D0091BE3F /* Preview Assets.xcassets */; };
 		7B1089402926DA1D0091BE3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10893F2926DA1D0091BE3F /* Persistence.swift */; };
 		7B1089432926DA1D0091BE3F /* CoreDataProgrammatically.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B1089412926DA1D0091BE3F /* CoreDataProgrammatically.xcdatamodeld */; };
+		7B10894E292C03D60091BE3F /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10894D292C03D60091BE3F /* BooksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B1089332926DA1C0091BE3F /* CoreDataProgrammatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProgrammatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1089362926DA1C0091BE3F /* CoreDataProgrammaticallyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProgrammaticallyApp.swift; sourceTree = "<group>"; };
-		7B1089382926DA1C0091BE3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7B10893A2926DA1D0091BE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B1089382926DA1C0091BE3F /* ShelvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelvesView.swift; sourceTree = "<group>"; };
 		7B10893D2926DA1D0091BE3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B10893F2926DA1D0091BE3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7B1089422926DA1D0091BE3F /* CoreDataProgrammatically.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProgrammatically.xcdatamodel; sourceTree = "<group>"; };
+		7B10894D292C03D60091BE3F /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,8 @@
 		7B1089352926DA1C0091BE3F /* CoreDataProgrammatically */ = {
 			isa = PBXGroup;
 			children = (
+				7B7664FE292EE4570019A376 /* Views */,
 				7B1089362926DA1C0091BE3F /* CoreDataProgrammaticallyApp.swift */,
-				7B1089382926DA1C0091BE3F /* ContentView.swift */,
-				7B10893A2926DA1D0091BE3F /* Assets.xcassets */,
 				7B10893F2926DA1D0091BE3F /* Persistence.swift */,
 				7B1089412926DA1D0091BE3F /* CoreDataProgrammatically.xcdatamodeld */,
 				7B10893C2926DA1D0091BE3F /* Preview Content */,
@@ -71,6 +70,15 @@
 				7B10893D2926DA1D0091BE3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B7664FE292EE4570019A376 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B10894D292C03D60091BE3F /* BooksView.swift */,
+				7B1089382926DA1C0091BE3F /* ShelvesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B10893E2926DA1D0091BE3F /* Preview Assets.xcassets in Resources */,
-				7B10893B2926DA1D0091BE3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +152,8 @@
 			files = (
 				7B1089432926DA1D0091BE3F /* CoreDataProgrammatically.xcdatamodeld in Sources */,
 				7B1089402926DA1D0091BE3F /* Persistence.swift in Sources */,
-				7B1089392926DA1C0091BE3F /* ContentView.swift in Sources */,
+				7B10894E292C03D60091BE3F /* BooksView.swift in Sources */,
+				7B1089392926DA1C0091BE3F /* ShelvesView.swift in Sources */,
 				7B1089372926DA1C0091BE3F /* CoreDataProgrammaticallyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +278,6 @@
 		7B1089472926DA1D0091BE3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProgrammatically/Preview Content\"";
@@ -299,8 +305,6 @@
 		7B1089482926DA1D0091BE3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProgrammatically/Preview Content\"";
